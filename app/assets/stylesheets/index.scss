@@ -1,0 +1,46 @@
+.panel{
+  margin-top: -15px;
+  margin-bottom: 100px;
+  padding: 50px;
+  background-image: image-url("bg1.jpg");
+  background-size: cover;
+  height: 70vh;
+  position: relative;
+}
+
+.init{
+  top: 90px;
+}
+
+#dim{
+  background-color: rgba(0,0,0,0.5);  
+  color: white;
+  padding: 30px;
+  width: 50vh;
+  position: relative;
+  float: right;
+  transition: 0.5s;
+}
+
+#dim:hover{
+  transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  margin: 5% 10%;
+}
+
+.about{
+  background-image: none;
+  font-size: 140%;
+  color: rgba(0,0,0,0.8);
+}
+
+#align-text{
+  position: relative;
+  top: -20px;
+}
+
+span{
+  margin: 10px;
+}
