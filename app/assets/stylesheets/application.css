@@ -1,0 +1,46 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ @import url(http://fonts.googleapis.com/css?family=Lato);
+
+ body{
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+}
+
+nav{
+  background-color: white;
+  color: darkcyan;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+  height: 75px;
+  position: relative;
+  top: -16px;
+  padding: 10px;
+  text-align: center;
+}
+
+li{
+  list-style: none;
+  display: inline;
+  padding: 32px 30px;
+  position: relative;
+  top: 20px;
+  border: 1px solid transparent;
+}
+
+li:hover{
+  background-color: rgba(0,0,0,0.02);
+}
